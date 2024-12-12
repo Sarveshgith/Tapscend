@@ -39,7 +39,7 @@ const GameArea = ({ onGameOver, updateScore }) => {
 
 			setSquareFrequency((prev) => Math.min(0.7, prev + 0.05));
 
-			setShapeLifeTime((prev) => Math.max(500, prev - 100));
+			//setShapeLifeTime((prev) => Math.max(500, prev - 100));
 		}, 10000);
 
 		return () => clearInterval(difficultyInterval);
